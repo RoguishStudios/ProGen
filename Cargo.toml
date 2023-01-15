@@ -1,0 +1,14 @@
+[package]
+name = "progen"
+edition = "2018"
+version = "0.1.0"
+authors = ["Hans W. Uhlig <huhlig@gmail.com>"]
+description = "ProGen - Procedural Generation Library"
+
+[dependencies]
+rand = "0.8"
+tracing = "0.1"
+
+[dev-dependencies]
+rand = { version = "0.8", features = ["small_rng"] }
+tracing-test = "0.2"
